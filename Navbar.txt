@@ -1,0 +1,43 @@
+Navbar
+Use a sticky navbar with smooth scrolling and brand logo.
+
+Hero Section
+
+Full-screen background image/video.
+Overlay text with animated transitions like fade-in.
+About Us Section
+
+Two-column layout: Image on one side and text on the other.
+Add animations using Bootstrap's utility classes.
+Menu Section
+
+Cards for each menu item with an image, name, description, and price.
+Optional filters for categories like Hot Drinks, Cold Drinks, Desserts.
+Gallery Section
+
+Use a responsive carousel or grid layout to display images.
+Add hover effects with filter properties.
+Testimonials Section
+
+Add a carousel with customer reviews.
+Use avatars with star ratings.
+Contact Us Section
+
+Add a form with fields for name, email, message, and a submit button.
+Include a Google Maps embed.
+Special Offers Section
+
+Cards with offer details and a call-to-action button.
+Use a progress bar to show offer validity.
+Events Section
+
+Responsive timeline design for upcoming events.
+Include images, dates, and details.
+Blog/Recipes Section
+
+Grid layout with cards for blog posts.
+Use read-more buttons with links to detailed pages.
+Footer
+
+Add social media icons and quick links.
+Include a subscription form for newsletters.

@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/coffe.css">
+
+    <head>
+        <!-- Bootstrap Icons CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    </head>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><img src="imgs/Screenshot 2024-12-03 171830.png" class="rounded-circle " height="50px" width="50px"></a>
+
+            <!-- Toggle Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section here -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="display-4 fw-bold">Welcome to Our Coffee Shop</h1>
+            <p class="lead">Freshly brewed coffee, just the way you love it!</p>
+            <a href="#menu" class="btn btn-custom">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section bg-light">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="about-title">
+                <h2 class="display-4 fw-bold text-warning">About Us</h2>
+                <p class="lead">Learn more about our coffee shop, our mission, and what makes us special!</p>
+            </div>
+            <div class="row">
+                <!-- Team Member 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card about-card">
+                        <img src="https://img.freepik.com/free-photo/coffee-business-owner-concept-portrait-happy-young-bearded-caucasian-barista-apron-with-confident-looking-smiling-camera-coffee-shop-counter_1258-103925.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870"
+                            alt="Team Member" class="card-img-top about-img">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning h4 fw-bold">John Doe</h5>
+                            <p class="card-text">Founder & CEO</p>
+                            <p>John started the coffee shop with a passion for high-quality coffee and great customer
+                                service.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card about-card">
+                        <img src="https://img.freepik.com/free-photo/two-baristas-working-bar-counter-coffee-shop_176420-7873.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Team Member" class="card-img-top about-img">
+                        <div class="card-body">
+                            <h5 class="card-title h4 fw-bold text-warning">Jane Smith</h5>
+                            <p class="card-text">Head Barista</p>
+                            <p>Jane is the mastermind behind our delicious coffee blends, ensuring each cup is perfect.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card about-card">
+                        <img src="https://img.freepik.com/free-photo/portrait-beautiful-asian-girl-student-working-parttime-cafe-holding-cup-coffee-made-order-l_1258-138309.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870"
+                            alt="Team Member" class="card-img-top about-img">
+                        <div class="card-body">
+                            <h5 class="card-title h4 fw-bold text-warning">Mark Williams</h5>
+                            <p class="card-text">Operations Manager</p>
+                            <p>Mark ensures smooth operations and a great experience for our customers every day.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- menu section here  -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="menu-title">
+                <h2 class="display-4 fw-bold text-warning">Our Menu</h2>
+                <p class="lead">Explore our delicious coffee and snack options!</p>
+            </div>
+
+            <div class="row">
+                <!-- Menu Item 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/aerial-view-hot-coffee_53876-31299.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Coffee" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Classic Espresso</h5>
+                            <p class="card-text">A bold and rich coffee, made with high-quality beans.</p>
+                            <!-- <p class="price">$4.99</p> -->
+                            <p class="price text-white btn btn-warning">$4.99</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/coffe-latte-with-coffee-beans_140725-9183.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Coffee" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Smooth espresso combined with steamed milk for a creamy taste.</p>
+                            <!-- <p class="price">$5.50</p> -->
+                            <p class="price text-white btn btn-warning">$5.50</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Coffee" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">A perfect blend of espresso, steamed milk, and a layer of foam.</p>
+                            <!-- <p class="price">$5.00</p> -->
+                            <p class="price text-white btn btn-warning">$5.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/homemade-sliced-croissant-with-chocolate-plate-marble-table_114579-84002.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Chocolate Croissant</h5>
+                            <p class="card-text">A delicious flaky croissant filled with rich chocolate.</p>
+                            <!-- <p class="price">$2.50</p> -->
+                            <p class="price text-white btn btn-warning">$2.50</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/high-view-tasty-cupcake-with-blueberry-forest-fruit_23-2148718778.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Blueberry Muffin</h5>
+                            <p class="card-text">A soft and moist muffin with fresh blueberries.</p>
+                            <!-- <p class="price">$3.00</p> -->
+                            <p class="price text-white btn btn-warning">$3.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/toast-with-avocado_23-2148574490.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title text-warning">Avocado Toast</h5>
+                            <p class="card-text">Fresh avocado spread on toasted bread with a sprinkle of seasoning.</p>
+                            <!-- <p class="price">$6.00</p> -->
+                            <p class="price text-white btn btn-warning">$6.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center mt-5">
+                    <h1 class="mt-5">For More menu click here!</h1>
+                    <button class="btn btn-warning col-lg-4 mt-5">See More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section here  -->
+    <div class="container father">
+        <h2>Our Coffee Selection</h2>
+        <div class="gallery-container row row-col-1 row-col-md-3 g-4">
+            <div class="col gallery-item">
+                <div class="card mx-auto">
+                    <img src="https://img.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                        class="card-img-top" alt="Coffee 1">
+                </div>
+            </div>
+            <div class="col gallery-item">
+                <div class="card mx-auto">
+                    <img src="https://img.freepik.com/free-photo/person-serving-cup-coffee_1286-227.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                        class="card-img-top" alt="Coffee 2">
+                </div>
+            </div>
+            <div class="col gallery-item">
+                <div class="card mx-auto">
+                    <img src="https://img.freepik.com/free-photo/front-view-cup-cappuccino-with-cookies-book-table_141793-2825.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                        class="card-img-top" alt="Coffee 3">
+                </div>
+            </div>
+            <div class="col gallery-item">
+                <div class="card mx-auto">
+                    <img src="https://img.freepik.com/free-photo/glass-cup-with-hot-latte-wooden-table-cafeteria_23-2148209272.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                        class="card-img-top" alt="Coffee 4">
+                </div>
+            </div>
+            <div class="col gallery-item">
+                <div class="card mx-auto">
+                    <img src="https://img.freepik.com/free-photo/steaming-coffee-cup-table_1373-58.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                        class="card-img-top" alt="Coffee 5">
+                </div>
+            </div>
+            <div class="col gallery-item">
+                <div class="card mx-auto">
+                    <img src="https://img.freepik.com/free-photo/cheerful-barista-with-smartphone-using-coffee-machine_23-2147795686.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                        class="card-img-top" alt="Coffee 6">
+                </div>
+            </div>
+            <div class="col gallery-item">
+                <div class="card mx-auto">
+                    <img src="https://img.freepik.com/free-photo/medium-shot-barista-wearing-mask_23-2148892846.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                        class="card-img-top" alt="Coffee 6">
+                </div>
+            </div>
+            <div class="col gallery-item">
+                <div class="card mx-auto">
+                    <img src="https://img.freepik.com/free-photo/medium-shot-barista-preparing-coffee_23-2148865611.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                        class="card-img-top" alt="Coffee 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial section here  -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 text-warning">What Our Customers Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Testimonial 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-6">
+                                <img src="https://img.freepik.com/free-photo/smiling-young-caucasian-girl-thumbs-up-with-two-hands_141793-71214.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                                    alt="Customer 1" class="rounded-circle mb-3" width="200px" height="200px">
+                                <p class="text-muted">"The best coffee I've ever had! Amazing atmosphere and great
+                                    service."</p>
+                                <div class="text-warning">
+                                    ★★★★☆
+                                </div>
+                                <h5 class="mt-2">- John Doe</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-6">
+                                <img src="https://img.freepik.com/free-photo/nice-job-well-done-great-proud-good-looking-satisfied-female-entrepreneur-showing-thumbs-up-smiling-delighted-pleased-seeing-good-result-encouraging-assitant-keep-up-liking-plan-approving_176420-35529.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                                    alt="Customer 2" class="rounded-circle mb-3" width="200px" height="200px">
+                                <p class="text-muted">"I love their cold brew! Always fresh and perfectly brewed."</p>
+                                <div class="text-warning">
+                                    ★★★★★
+                                </div>
+                                <h5 class="mt-2">- Jane Smith</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-6">
+                                <img src="https://img.freepik.com/free-photo/medium-shot-guy-holding-thumbs-up_23-2148228008.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                                    alt="Customer 2" class="rounded-circle mb-3" width="200px" height="200px">
+                                <p class="text-muted">"I love their cold brew! Always fresh and perfectly brewed."</p>
+                                <div class="text-warning">
+                                    ★★★★★
+                                </div>
+                                <h5 class="mt-2">- Jane Smith</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 4 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-6">
+                                <img src="https://img.freepik.com/free-photo/man-grey-sweater-pointing-something-introducing-someone-using-point-finger_144627-53555.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                                    alt="Customer 2" class="rounded-circle mb-3" width="200px" height="200px">
+                                <p class="text-muted">"I love their cold brew! Always fresh and perfectly brewed."</p>
+                                <div class="text-warning">
+                                    ★★★★★
+                                </div>
+                                <h5 class="mt-2">- Jane Smith</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact from section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container py-5" style="box-shadow: 20px 0px 50px -30px; border-radius: 30px;">
+            <h2 class="text-center mb-4 text-warning">Get in Touch</h2>
+            <div class="row mx-5 m-auto">
+                <!-- Contact Form -->
+                <div class="col-lg-5" style="margin: 0 auto;">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100">Submit</button>
+                    </form>
+                </div>
+
+                <!-- Google Map
+            <div class="col-lg-6">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509156!2d-122.4194154851328!3d37.77492927975959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c9fdbe7ff%3A0xa1c7b29b1f451bf3!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- special offers -->
+    <section id="special-offers" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 text-warning">Special Offers</h2>
+            <div class="row gy-4">
+                <!-- Offer 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow border-warning">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">Buy 1 Get 1 Free</h5>
+                            <p class="card-text text-muted">Enjoy your favorite coffee with a friend! Offer valid on
+                                Cappuccinos.</p>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;"
+                                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70% Validity</div>
+                            </div>
+                            <button class="btn btn-warning">Grab Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Offer 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow border-warning">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">20% Off All Cold Brews</h5>
+                            <p class="card-text text-muted">Stay refreshed with our chilled Cold Brew Coffee at
+                                discounted prices.</p>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;"
+                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50% Validity</div>
+                            </div>
+                            <button class="btn btn-warning">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Offer 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow border-warning">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">Free Dessert</h5>
+                            <p class="card-text text-muted">Get a free dessert with every large coffee purchase.</p>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 30%;"
+                                    aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30% Validity</div>
+                            </div>
+                            <button class="btn btn-warning">Claim Offer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- event section here -->
+
+    <section id="events" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Upcoming Events</h2>
+            <div class="row g-4">
+                <!-- Event 1 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/top-view-life-begins-after-coffee-inspirational-quote-chalkboard-with-woman-holding-coffee_23-2149144247.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            class="card-img-top" alt="Event 1" height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffee Art Workshop</h5>
+                            <p class="card-text"><strong>Date:</strong> December 15, 2024</p>
+                            <p class="card-text">Join us for an exclusive coffee art workshop where you can learn how to
+                                make creative designs with your coffee.</p>
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Event 2 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/waffles-with-chocolate-coffee-cup-paper-cutout-light-bulb-with-text-chalkboard_23-2147874157.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            class="card-img-top" alt="Event 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Live Music Night</h5>
+                            <p class="card-text"><strong>Date:</strong> December 22, 2024</p>
+                            <p class="card-text">Enjoy an evening of live music with our special coffee blends and
+                                snacks. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                            <a href="#" class="btn btn-warning">Reserve a Spot</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Recipes Section here -->
+    <section id="blogs" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Blog & Recipes</h2>
+            <div class="row g-4">
+                <!-- Blog 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://img.freepik.com/free-photo/beautiful-young-woman-home_144627-42185.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            class="card-img-top" alt="Blog 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Perfect Latte at Home</h5>
+                            <p class="card-text">Learn how to brew the perfect latte with just a few simple ingredients
+                                and techniques.</p>
+                            <a href="#" class="btn btn-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://img.freepik.com/free-photo/high-angle-shot-coffee-beans-jars-breakfast-table-with-some-pastry_181624-5864.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            class="card-img-top" alt="Blog 2">
+                        <div class="card-body">
+                            <h5 class="card-title">5 Unique Coffee Recipes</h5>
+                            <p class="card-text">Discover five unique and delicious coffee recipes to elevate your
+                                coffee game.</p>
+                            <a href="#" class="btn btn-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://img.freepik.com/free-photo/man-holding-coffee-with-coffee-beans-heart-shaped-bowl-black_176474-2888.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            class="card-img-top" alt="Blog 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Health Benefits of Coffee</h5>
+                            <p class="card-text">Explore the various health benefits of drinking coffee and how it can
+                                improve your day.</p>
+                            <a href="#" class="btn btn-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section here  -->
+
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Welcome to Coffee Bliss, where every sip tells a story. Join us for the finest coffee experience.
+                    </p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5 class="text-warning h4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#about" class="text-light text-decoration-none">About Us</a></li>
+                        <li><a href="#menu" class="text-light text-decoration-none">Menu</a></li>
+                        <li><a href="#contact" class="text-light text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Newsletter Subscription -->
+                <div class="col-md-4">
+                    <h5 class="text-warning h2">Subscribe</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <!-- Social Media and Copyright -->
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <div>
+                    <p class="mb-0">&copy; 2024 Coffee Bliss. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

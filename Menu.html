@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/menu.css">
+
+
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><img src="imgs/Screenshot 2024-12-03 171830.png" class="rounded-circle "
+                    height="50px" width="50px"></a>
+
+            <!-- Toggle Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="coffe.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- !-- hero section here -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="display-4 fw-bold">Welcome to Menu page</h1>
+            <p class="lead">Freshly brewed coffee, just the way you love it!</p>
+            <a href="#menu" class="btn btn-custom">Explore Menu</a>
+        </div>
+    </section>
+
+
+    <!-- menu section here  -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="menu-title">
+                <h2 class="display-4 fw-bold text-warning">Our Menu</h2>
+                <p class="lead">Explore our delicious coffee and snack options!</p>
+            </div>
+
+            <div class="row">
+                <!-- Menu Item 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/aerial-view-hot-coffee_53876-31299.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Coffee" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Classic Espresso</h5>
+                            <p class="card-text">A bold and rich coffee, made with high-quality beans.</p>
+                            <!-- <p class="price">$4.99</p> -->
+                            <p class="price text-white btn btn-warning">$4.99</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/coffe-latte-with-coffee-beans_140725-9183.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Coffee" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Smooth espresso combined with steamed milk for a creamy taste.</p>
+                            <!-- <p class="price">$5.50</p> -->
+                            <p class="price text-white btn btn-warning">$5.50</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Coffee" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">A perfect blend of espresso, steamed milk, and a layer of foam.</p>
+                            <!-- <p class="price">$5.00</p> -->
+                            <p class="price text-white btn btn-warning">$5.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/homemade-sliced-croissant-with-chocolate-plate-marble-table_114579-84002.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Chocolate Croissant</h5>
+                            <p class="card-text">A delicious flaky croissant filled with rich chocolate.</p>
+                            <!-- <p class="price">$2.50</p> -->
+                            <p class="price text-white btn btn-warning">$2.50</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/high-view-tasty-cupcake-with-blueberry-forest-fruit_23-2148718778.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Blueberry Muffin</h5>
+                            <p class="card-text">A soft and moist muffin with fresh blueberries.</p>
+                            <!-- <p class="price">$3.00</p> -->
+                            <p class="price text-white btn btn-warning">$3.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/toast-with-avocado_23-2148574490.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Avocado Toast</h5>
+                            <p class="card-text">Fresh avocado spread on toasted bread with a sprinkle of seasoning.</p>
+                            <!-- <p class="price">$6.00</p> -->
+                            <p class="price text-white btn btn-warning">$6.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/served-healthy-straw-ice-background_1172-445.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Iced Coffee</h5>
+                            <p class="card-text">Fresh avocado spread on toasted bread with a sprinkle of seasoning.</p>
+                            <!-- <p class="price">$6.00</p> -->
+                            <p class="price text-white btn btn-warning">$4.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/milk-pouring-into-glass-tray_23-2148349603.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Iced Latte </h5>
+                            <p class="card-text">Fresh avocado spread on toasted bread with a sprinkle of seasoning.</p>
+                            <!-- <p class="price">$6.00</p> -->
+                            <p class="price text-white btn btn-warning">$5.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/americano-with-white-cup-saucer_140725-31966.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Americano</h5>
+                            <p class="card-text">Fresh avocado spread on toasted bread with a sprinkle of seasoning.</p>
+                            <!-- <p class="price">$6.00</p> -->
+                            <p class="price text-white btn btn-warning">$3.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/top-view-coffee-cup_1203-6761.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Flat White</h5>
+                            <p class="card-text">Fresh avocado spread on toasted bread with a sprinkle of seasoning.</p>
+                            <!-- <p class="price">$6.00</p> -->
+                            <p class="price text-white btn btn-warning">$4.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/view-3d-coffee-cup_23-2151083700.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Caramel Macchiato</h5>
+                            <p class="card-text">Fresh avocado spread on toasted bread with a sprinkle of seasoning.</p>
+                            <!-- <p class="price">$6.00</p> -->
+                            <p class="price text-white btn btn-warning">$5.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.freepik.com/free-photo/cup-espresso-from_1385-2781.jpg?uid=R166088939&ga=GA1.1.968091680.1731754870&semt=ais_hybrid"
+                            alt="Snack" class="card-img-top menu-img">
+                        <div class="card-body menu-card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <p class="card-text">Fresh avocado spread on toasted bread with a sprinkle of seasoning.</p>
+                            <!-- <p class="price">$6.00</p> -->
+                            <p class="price text-white btn btn-warning">$3.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section here  -->
+
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Welcome to Coffee Bliss, where every sip tells a story. Join us for the finest coffee experience.
+                    </p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5 class="text-warning h4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#about" class="text-light text-decoration-none">About Us</a></li>
+                        <li><a href="#menu" class="text-light text-decoration-none">Menu</a></li>
+                        <li><a href="#contact" class="text-light text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Newsletter Subscription -->
+                <div class="col-md-4">
+                    <h5 class="text-warning h2">Subscribe</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <!-- Social Media and Copyright -->
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <div>
+                    <p class="mb-0">&copy; 2024 Coffee Bliss. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
